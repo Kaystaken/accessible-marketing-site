@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>Horiseon Social Solutions - SEO and Digital Marketing</title>
 </head>
 
 <body>
+    <!-- changed div class header to header element to make it semantic HTML -->
     <header>
+        <!-- The span element is here to specify the colour of seo in the company logo in the header -->
         <h1>Hori<span class="seo">seo</span>n</h1>
         <nav>
             <ul>
@@ -24,9 +26,11 @@
             </ul>
         </nav>
     </header>
+    <!-- the hero section if the full page image -->
     <section class="hero"></section>
     <main>
-        <article>
+        <!-- The id of the article is referenced by the link in the nav --> 
+        <article id="search-engine-optimization">
             <figure>
                 <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             </figure>
@@ -54,6 +58,7 @@
             </p>
         </article>
     </main>
+    <!-- class benefit was used on the aside section-->
     <aside>
         <section class="benefit">
             <h3>Lead Generation</h3>
@@ -84,10 +89,11 @@
         </section>
     </aside>
     <footer>
-        <h2>Made with ❤️️ by Horiseon</h2>
+        <h4>Made with ❤️️ by Horiseon</h4>
         <p>
             &copy; 2023 Horiseon Social Solution Services, Inc.
         </p>
+    <!-- changed heading from h2 to h4 so thye fall in sequential order-->
     </footer>
 </body>
 
